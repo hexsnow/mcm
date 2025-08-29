@@ -1,0 +1,21 @@
+target-version = "py312"
+line-length = 88
+preview = true
+
+lint.select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "UP", # pyupgrade
+    "C4", # flake8-comprehensions
+    "A",  # flake8-builtins
+]
+
+exclude = [
+    ".git",
+    ".venv",
+    "dist",
+    ".direnv",
+    "mcm.egg-info",
+]
