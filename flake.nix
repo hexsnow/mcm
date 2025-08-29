@@ -33,13 +33,13 @@
           pythonPackages.pytorch
 
           # Formatters
-          alejandra
-          mdformat
-          python312Packages.ruff
+          pkgs.alejandra
+          pkgs.mdformat
+          pythonPackages.ruff
 
           # Others
-          justfile
-          treefmt
+          pkgs.just
+          pkgs.treefmt
         ];
 
         # Run this command, only after creating the virtual environment
