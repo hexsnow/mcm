@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'numpy',
-        'pytorch',
+        'torch',
     ],
     entry_points={
         'console_scripts': [
