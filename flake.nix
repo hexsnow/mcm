@@ -33,6 +33,7 @@
           pythonPackages.pytorch
 
           # Formatters
+          alejandra
           mdformat
           python312Packages.ruff
 

@@ -1,0 +1,19 @@
+[formatter.nix]
+command = "alejandra"
+includes = ["*.nix"]
+
+[formatter.markdown]
+command = "mdformat"
+includes = [
+         "*.md",
+]
+
+[formatter.ruff]
+command = "ruff"
+options = ["check", "--fix", "--select", "I"]
+includes = ["*.py"]
+
+[formatter.ruff-format]
+command = "ruff"
+options = ["format"]
+includes = ["*.py"]
