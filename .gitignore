@@ -4,3 +4,4 @@ dist
 .direnv/
 .venv/
 *.egg-info
+.ruff_cache/
