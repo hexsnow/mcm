@@ -10,6 +10,7 @@ setup(
     install_requires=[
         "numpy",
         "torch",
+        "pandas",
     ],
     entry_points={
         "console_scripts": [
