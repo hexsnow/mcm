@@ -11,6 +11,8 @@ setup(
         "numpy",
         "torch",
         "pandas",
+        "sentence-transformers",
+        "tqdm",
     ],
     entry_points={
         "console_scripts": [
