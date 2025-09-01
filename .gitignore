@@ -5,8 +5,6 @@ dist
 .venv/
 *.egg-info
 .ruff_cache/
-tokenized/
-data/
 *.npy
 *.npz
 *.pkl
