@@ -12,9 +12,11 @@ google-auth==2.37.0
 google-auth-oauthlib==1.2.1
 grpcio==1.70.0
 gviz-api==1.10.0
+huggingface_hub==0.29.3
 idna==3.10
 Jinja2==3.1.5
-joblib==1.5.2
+joblib==1.4.2
+lz4==4.4.1
 Markdown==3.7
 MarkupSafe==3.0.2
 -e git+https://github.com/hexsnow/mcm.git@b4d25fb02f9c8471a35303b17b400b0f062b463f#egg=mcm
@@ -22,10 +24,11 @@ mpmath==1.3.0
 networkx==3.4.2
 numpy==2.2.3
 oauthlib==3.2.2
-packaging==25.0
+packaging==24.2
 pandas==2.2.3
 pillow==11.1.0
 protobuf==5.29.3
+psutil==6.1.1
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pybind11==2.13.6
@@ -33,12 +36,15 @@ pycparser==2.22
 python-dateutil==2.9.0.post0
 pytz==2024.2
 PyYAML==6.0.2
+regex==2024.11.6
 requests==2.32.3
 requests-oauthlib==2.0.0
 rsa==4.9
 ruff==0.11.0
-scikit-learn==1.4.2
-scipy==1.16.1
+safetensors==0.5.2
+scikit-learn==1.6.1
+scipy==1.15.2
+sentence-transformers==3.4.1
 setuptools==75.8.0.post0
 six==1.17.0
 sympy==1.13.3
@@ -46,8 +52,11 @@ tensorboard==2.18.0
 tensorboard-data-server==0.7.2
 tensorboard-plugin-profile==2.11.1
 tensorboard-plugin-wit==1.7.0
-threadpoolctl==3.6.0
+threadpoolctl==3.5.0
+tokenizers==0.21.1
 torch==2.5.1
+tqdm==4.67.1
+transformers==4.49.0
 typing_extensions==4.12.2
 tzdata==2024.2
 urllib3==2.3.0
