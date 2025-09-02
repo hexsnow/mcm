@@ -9,3 +9,4 @@ dist
 *.npz
 *.pkl
 *.pickle
+student_id_mapping.json
